@@ -1,0 +1,55 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.todo {
+  background-color: #222930;
+  margin-top: 2rem;
+  padding: 2rem;
+  border-radius: 4px;
+  width: 90%;
+  min-width: 480px;
+  height: 768px;
+  color: white;
+}
+
+.todo__header {
+  text-align: center;
+  color: white;
+  font-size: 1.5rem;
+}
+
+.todo__input {
+  width: 100%;
+  border-radius: 4px;
+  padding: 1rem 1.2rem;
+  outline: none;
+  border: none;
+  font-size: 1rem;
+}
+
+.todo__item {
+  list-style: none;
+  padding: 1rem 1.2rem;
+  border-bottom: 2px solid #d49a3f;
+}
+
+.todo__item {
+  cursor: default;
+}
+
+.done {
+  text-decoration: line-through;
+  opacity: 0.5;
+}
